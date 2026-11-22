@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Team Chai</title>
+
+        <style>
+            body {
+                font-family: sans-serif;
+                max-width: 520px;
+                margin: 40px auto;
+                padding: 0 16px;
+            }
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 id="shop">Loading...</h1>
+
+        <ul id="menu"></ul>
+
+        <script>
+            fetch("menu.json")
+                .then(r => r.json())
+                .then(d => {
+                    document.getElementById("shop").textContent = d.shop;
+
+                    document.getElementById("menu").innerHTML =
+                        d.items.map(i =>
+                            `<li>
+                                <span>${i.name}</span>
+                                <b>₹${i.price}</b>
+                            </li>`
+                        ).join("");
+                });
+        </script>
+    </body>
+</html>
