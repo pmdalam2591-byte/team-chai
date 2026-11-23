@@ -13,5 +13,9 @@
             "name": "Samosa",
             "price": 18
         }
+        {
+            "name": "Ginger Chai",
+            "price": 25
+        }
     ]
 }
