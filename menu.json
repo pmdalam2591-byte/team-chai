@@ -18,6 +18,10 @@
         {
             "name": "Ginger Chai",
             "price": 25
+        },
+        {
+            "name": "filter coffee",
+            "price": 10
         }
     ]
 }
