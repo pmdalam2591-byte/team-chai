@@ -1,0 +1,23 @@
+{
+    "shop": "Team Chai",
+    "items": [
+        {
+            "name": "Cutting Chai",
+            "price": 15
+        },
+        {
+            "name": "Masala Chai",
+ 
+            "price": 0
+          
+        },
+        {
+            "name": "Samosa",
+            "price": 18
+        },
+        {
+            "name": "Ginger Chai",
+            "price": 25
+        }
+    ]
+}
