@@ -7,16 +7,14 @@
         },
         {
             "name": "Masala Chai",
- HEAD
-            "price": 24
-
-            
- origin/main
+            "price": 26
+        
+ 
         },
         {
             "name": "Samosa",
             "price": 18
-        }
+        }, 
         {
             "name": "Ginger Chai",
             "price": 25
