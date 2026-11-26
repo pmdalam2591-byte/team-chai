@@ -7,17 +7,23 @@
         },
         {
             "name": "Masala Chai",
+
             "price": 26
-        
- 
         },
         {
             "name": "Samosa",
             "price": 18
-        }, 
+
+        },
         {
             "name": "Ginger Chai",
             "price": 25
+        },
+        {
+            "name": "filter coffee",
+            "price": 10
+
         }
+       
     ]
 }
